@@ -1,0 +1,242 @@
+/*
+Site Name: Mel Choyce's Resume
+Author: Mel Choyce 
+Description: For additional information, see choycedesign.com or email me at melissachoyce@gmail.com.
+
+            _.._
+           (_.-.\
+       .-,       `
+  .--./ /     _.-""-.
+   '-. (__..-"       \
+      \          a    |
+       ',.__.   ,__.-'/
+         '--/_.'----'`
+
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+body {
+	background: #fff;
+	line-height: 1;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/* =General
+----------------------------------------------- */
+
+body { 
+	font: 300 1em/1.5em 'Open Sans', sans-serif;
+	color: #333;
+}
+h1,
+h2,
+h3 {
+	font-family: 'proxima-nova', 'Open Sans', sans-serif;
+}
+h1 {
+	margin-bottom: .5em;
+	font-weight: 600;
+	font-size: 2em;
+}
+h1 + h2 {
+	font-size: 1.3em;
+	font-style: italic;
+}
+h2 {
+	font-size: 1.5em;
+}
+h2 a {
+	font-weight: 300;
+}
+h3 {
+	background-color: #292929;
+	width: 16%;
+	padding: .6% 3.125%;
+	font-size: 1.25em;
+	font-weight: 600;
+	color: #fff;
+}
+a {
+	color: #00B7C8;
+	font-weight: 600;
+	text-decoration: none;
+}
+a:hover {
+	border-bottom: 1px solid #E21A6A;
+}
+em { 
+	font-size: .95em;
+	font-style: italic; 
+}
+strong { 
+	font-weight: 600;
+}
+
+/* =Specific
+----------------------------------------------- */
+
+h1, 
+header,
+header a,
+footer p { 
+	color: #fff; 
+}
+header a:hover {
+	color: #00B7C8;
+	border-bottom: 0;
+}
+#email {
+	display: block;
+	height: 30px;
+	margin-top: 10px;
+	padding: 7px 35px 0 0;
+	background: transparent url('email.png') right no-repeat;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {display: inline-block;}
+
+
+/* =Structure
+----------------------------------------------- */
+
+body {
+	padding: 2em;
+	background: #333 url('http://choycedesign.com/wp-content/themes/choycedesign/img/bg.png') repeat;
+}
+#container {
+	max-width: 1024px;
+	margin: auto;
+	background-color: #fff;
+}
+header {
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 3.125%;
+	background-color: #292929;
+}
+hgroup {
+	float: left;
+	width: 50%;
+}
+header aside {
+	float: right;
+	text-align: right;
+}
+section {
+	padding-top: 3.175%;
+}
+dl {
+	width: 70%;
+	margin-top: -3.127%;
+	margin-left: 25%;
+	margin-right: 3.125%;
+}
+dt, dd {
+	margin-bottom: 1em;
+}
+dt {
+	float: left;
+	clear: left;	
+	width: 35%;
+	text-align: right;	
+}
+dd {
+	width: 60%;
+	margin-left: 40%;
+}
+footer {
+	width: 100%;
+	margin-top: 2em;
+	padding: 1em 0;
+	background-color: #292929;
+	text-align: center;
+}
+
+/* =Smartphones and small tablets (portrait and landscape)
+----------------------------------------------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 740px) {
+	body {
+		padding: 1em;
+	}
+	hgroup {
+		clear: right;
+		width: 100%;
+		text-align: center;
+	}
+	h2 {
+	}
+	header aside {
+		float: none;
+		clear: none;
+		text-align: center;
+	}
+	header aside h2 {
+		margin-top: 3.5em;
+		padding-top: 1em;
+		border-top: 1px solid rgba(255,255,255,.15);
+	}
+	#email {
+		float: none;
+		padding-top: 1em;
+		height: auto;
+		padding: 0;
+		background: none;
+		font-size: .9em;
+	}	
+	h3 {
+		width: 80%;
+		clear: right;
+	}
+	dl {
+		width: 95%;
+		margin: 0;
+		padding: 1em 3.125% 0 3.125%;
+		float: none;
+	}
+	dt, dd {
+		margin: 0;
+		width: 100%;
+		float: none;
+	}
+	dt {
+		padding: 0;
+		text-align: left;
+	}
+	dd {
+		padding-bottom: 1em;
+		font-size: .95em;		
+	}
+}
